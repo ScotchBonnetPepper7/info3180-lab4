@@ -1,3 +1,21 @@
 body {
     padding-top: 5rem;
 }
+
+.pics-style {
+    display: grid;
+    grid-template-columns: repeat(3, 0.4fr);
+    gap: 10px;
+}
+  
+img {
+    height: 250px;
+    width: 250px;
+}
+  
+.css-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
